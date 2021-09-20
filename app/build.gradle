@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+
+android {
+    compileSdk 31
+
+
+    defaultConfig {
+        applicationId "com.example.instagram"
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+
+
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+   androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //Dependências firebase
+    implementation 'com.google.firebase:firebase-core:11.8.0'
+    implementation 'com.google.firebase:firebase-database:11.8.0'
+    implementation 'com.google.firebase:firebase-storage:11.8.0'
+    implementation 'com.google.firebase:firebase-auth:11.8.0'
+    implementation platform('com.google.firebase:firebase-bom:28.4.0')
+    implementation 'com.google.firebase:firebase-analytics'
+
+    //Dependências bottom navigationEx
+    implementation 'com.aurelhubert:ahbottomnavigation:2.0.4'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:26.1.0'
+
+    //Dependencia para o circleImageView
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+
+    implementation 'com.firebaseui:firebase-ui-storage:0.6.0'
+
+    //Dependências AndroidPhotoFilter
+    implementation 'info.androidhive:imagefilters:1.0.7'
+
+
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+
+    //Dependências like button
+    implementation 'com.jackandphantom.android:androidlikebutton:1.2.0'
+
+}

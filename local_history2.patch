@@ -1,0 +1,23 @@
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build.gradle b/app/build.gradle
+--- a/app/build.gradle	(date 1632169416194)
++++ b/app/build.gradle	(date 1632169416194)
+@@ -7,12 +7,12 @@
+ 
+ 
+     defaultConfig {
+-        applicationId "com.example.instagram"
++        applicationId "instagram"
+         minSdk 21
+         targetSdk 31
+         versionCode 1
+         versionName "1.0"
+-        multiDexEnabled true
++
+ 
+ 
+         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"

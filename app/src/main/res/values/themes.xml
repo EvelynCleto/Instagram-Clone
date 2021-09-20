@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="ThemeInicial.Instagram" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> encima da toolbar
+        <item name="colorPrimary">@color/colorPrimary</item> toolbar
+        <item name="android:textColorPrimary">@color/textColorPrimary</item> letra do que está na toolbar
+        <item name="android:windowBackground">@color/windowBackground</item> tela
+        <item name="android:navigationBarColor">?attr/textColorAlertDialogListItem</item> parte debaixo aonde fica os botões
+
+        <item name="colorSecondary">@color/colorSecondary</item> cor do pisca pisca de escrever
+    </style>
+
+    <style name="Theme.Instagram" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+
+        <item name="colorPrimaryDark">@android:color/black</item> encima da toolbar
+        <item name="colorPrimary">@android:color/white</item> toolbar
+        <item name="android:textColorPrimary">@android:color/black</item> letra do que está na toolbar
+        <item name="android:windowBackground">@color/windowBackground</item> tela
+
+        <item name="android:navigationBarColor">?attr/textColorAlertDialogListItem</item> parte debaixo aonde fica os botões
+        <item name="colorSecondary">@color/preto</item> cor do pisca pisca de escrever
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+
+
+</resources>

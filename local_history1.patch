@@ -1,0 +1,48 @@
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml
+--- a/app/src/main/AndroidManifest.xml	(date 1632166615314)
++++ b/app/src/main/AndroidManifest.xml	(date 1632166615314)
+@@ -19,30 +19,30 @@
+         android:supportsRtl="true"
+         android:theme="@style/Theme.Instagram">
+         <activity
+-            android:name="com.example.interAge2207.activity.ComentarioActivity"
++            android:name=".activity.ComentarioActivity"
+             android:exported="true" />
+         <activity
+-            android:name="com.example.interAge2207.activity.VisualizarPostagemActivity"
++            android:name=".activity.VisualizarPostagemActivity"
+             android:exported="true" />
+         <activity
+-            android:name="com.example.interAge2207.activity.FiltroActivity"
++            android:name=".activity.FiltroActivity"
+             android:exported="true" />
+         <activity
+-            android:name="com.example.interAge2207.activity.PerfilAmigoActivity"
++            android:name=".activity.PerfilAmigoActivity"
+             android:exported="true" />
+         <activity
+-            android:name="com.example.interAge2207.activity.EditarPerfilActivity"
++            android:name=".activity.EditarPerfilActivity"
+             android:exported="true"
+-            android:parentActivityName="com.example.interAge2207.activity.MainActivity" />
++            android:parentActivityName=".activity.MainActivity" />
+         <activity
+-            android:name="com.example.interAge2207.activity.CadastroActivity"
++            android:name=".activity.CadastroActivity"
+             android:exported="true"
+             android:theme="@style/ThemeInicial.Instagram" />
+         <activity
+-            android:name="com.example.interAge2207.activity.MainActivity"
++            android:name=".activity.MainActivity"
+             android:exported="true" />
+         <activity
+-            android:name="com.example.interAge2207.activity.LoginActivity"
++            android:name=".activity.LoginActivity"
+             android:exported="true"
+             android:theme="@style/ThemeInicial.Instagram">
+             <intent-filter>
